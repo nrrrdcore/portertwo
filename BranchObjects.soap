@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <QueryBranchObjectsResponse xmlns="http://schemas.microsoft.com/TeamFoundation/2005/06/VersionControl/ClientServices/03">
+      <QueryBranchObjectsResult>
+        <BranchObject>
+          <Properties>
+            <RootItem it="$/CRST/Main" ctype="5">
+              <Version xsi:type="ChangesetVersionSpec" cs="8960"/>
+            </RootItem>
+            <Description>Added layer of depth to support branching.</Description>
+            <Owner>SND\erwilleke_cp</Owner>
+            <OwnerDisplayName>erwilleke_cp</OwnerDisplayName>
+            <OwnerUniqueName>SND\erwilleke_cp</OwnerUniqueName>
+            <BranchMappings/>
+          </Properties>
+          <DateCreated>2007-10-18T03:06:58.307Z</DateCreated>
+          <ChildBranches>
+            <ItemIdentifier it="$/CRST/WPFDev" ctype="68">
+              <Version xsi:type="ChangesetVersionSpec" cs="8961"/>
+            </ItemIdentifier>
+          </ChildBranches>
+          <RelatedBranches/>
+        </BranchObject>
+        <BranchObject>
+          <Properties>
+            <RootItem it="$/CRST/WPFDev" ctype="68">
+              <Version xsi:type="ChangesetVersionSpec" cs="8961"/>
+            </RootItem>
+            <Description>Deliverd branch for WPF dev work</Description>
+            <Owner>SND\erwilleke_cp</Owner>
+            <OwnerDisplayName>erwilleke_cp</OwnerDisplayName>
+            <OwnerUniqueName>SND\erwilleke_cp</OwnerUniqueName>
+            <ParentBranch it="$/CRST/Main" ctype="5">
+              <Version xsi:type="ChangesetVersionSpec" cs="8960"/>
+            </ParentBranch>
+            <BranchMappings/>
+          </Properties>
+          <DateCreated>2007-10-18T03:08:27.96Z</DateCreated>
+          <ChildBranches/>
+          <RelatedBranches/>
+        </BranchObject>
+      </QueryBranchObjectsResult>
+    </QueryBranchObjectsResponse>
+  </soap:Body>
+</soap:Envelope>
